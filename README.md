@@ -1,2 +1,2 @@
 # html
-HTML 
+Temel HTML işaretleme ve etiketleri...
