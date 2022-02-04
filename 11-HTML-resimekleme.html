@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Resim</title>
+</head>
+<body>
+    
+<!--Resimler eklemek -->
+<p>Web sayfamıza resim eklemek için img etiketini kullanırız</p>
+<p>img etiketinin src="resimlinkiveyayolu" (src)özelliği ile resim kaynağı belirtilir</p>
+<p>img etiketinin alt= "resimeaitmetinyazı" (alt) özelliği ile resime ait bir metin yazısı eklenir. Resimin sayfada yüklenmemesi gibi bir durumla karşılaşıldığında resim olacak kısımda bu alt özelliği içerisindeki metin sayfada görüntülenir.</p>
+<img src="https://i.hizliresim.com/gk3w0m4.jpg" alt="Ali Osman TATLI">
+<br>
+<hr>
+
+<!--Klasördeki resimi dosya yoluna eklemek -->
+<p>Resim eklemek istediğimizde istenilen klasördeki veya aynı klasördeki resmi de ekleyebiliriz. Eğer Başka klasör içerisinde ise örnek resimler klasöründe olsun resmimiz, bunun için src="/resimler/resim.jpg" şeklinde img etiketi içerisine dosya yolu src özelliğne eklenir. </p>
+<hr>
+
+<!--Resime yükseklik genişlik vermek için style css özelliği -->
+<p>Resimlere yükseklik ve genişlik vermek için css style özelliği içerisinde width(genişlik) ve height(yükseklik) özellikleri kullanılır. İstenirse sadece width="" height="" özellikleri style olmadan da kullanılabilir.</p>
+<h3>HTML Sertifikası</h3>
+<img src="https://udemy-certificate.s3.amazonaws.com/image/UC-d6c2d6a0-c22e-4b8b-b97c-f903ec94baa1.jpg" alt="HTML Sertifikası" style="height: 300px;"> 
+<hr>
+
+<!--Resimi link vermek  -->
+<p>Resimleri link vermek için de kullanabiliriz.</p>
+<p>Bunun için etiketleri içe yazarız, a etiketi içerisinde img etiketini kullanırız.</p>
+<p>Aşağıdaki örnekte resime tıkladığımızda resimin yüklü olduğu server adresini yeni sekmede açarız ve resime link vermiş oluyoruz.</p>
+<h3>CSS Sertifikası</h3>
+<a href="https://udemy-certificate.s3.amazonaws.com/image/UC-4f487f4f-ea6e-4f9a-84a4-4fb1fb0fe1c1.jpg" target="_blank">
+    <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-4f487f4f-ea6e-4f9a-84a4-4fb1fb0fe1c1.jpg" alt="CSS Sertifikası" width="250">
+</a>
+<br>
+<hr>
+
+</body>
+</html>
