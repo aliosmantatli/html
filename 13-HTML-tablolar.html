@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+    <!--Favicon resmi için w3schools sayfasındaki zar favicon kullanılmıştır -->
+    <link rel="shortcut icon" href="https://www.w3schools.com/images/favicon.ico" type="image/x-icon">
+    <style>
+        /*Tablo kısmını kenarlık, solid ve siyah yapmak için css  */
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+</head>
+<body>
+    
+<!--HTML tablolar -->
+<p>HTML tabloları özellikle veritababından alınacak ve işlenecek bilgilerin gösterilmesinde önemli işlev görmektedir.</p>
+<p>Tablolar table etikeri içerisinde kullanılır. Satırlar için tr etiketi kullanılırken sütun hücreleri için td etiketi kullanılmaktadır.</p>
+<p>Tablonun en üst başlık kısımları için th etiketi kullanılmaktaadır.</p>
+<h2>Temel Tablo Şablonu</h2>
+
+<!--Tablo için table etiketi kullanılır. Style özelliği ile genişlik %100 yapılarak tüm sayfayı kaplaması sağlanır -->
+<table style="width:100%">
+    <!--Tablo satırı için tr etiketi  -->
+  <tr>
+    <!--Tablo başlık kısımları için th etiketi -->
+    <th>No (th Tablo Başlığı Kısmı)</th>
+    <!--1. satır 1. sütun -->
+    <th>Ülke </th>
+    <!--1. satır 2. sütun -->
+    <th>Şehir</th>
+    <!--1. satır 3. sütun -->
+  </tr>
+  <tr>
+    <!--Tablo alt hücreleri için td etikeri kullanılır -->
+    <td>1 (td sütun hücreleri kısmı)</td>
+    <!--2. satır 1. sütun -->
+    <td>Türkiye</td>
+    <!--2. satır 2. sütun -->
+    <td>Trabzon</td>
+    <!--2. satır 3. sütun -->
+  </tr>
+  <tr>
+    <td>2</td>
+    <!--3. satır 1. sütun -->
+    <td>Türkiye</td>
+    <!--3. satır 2. sütun -->
+    <td>Zonguldak</td>
+    <!--3. satır 3. sütun -->
+  </tr>
+</table>
+<br>
+  <p>Tablo görselleştirmeleri için bir çok css özelliği bulunmakta olup görsel ve filtreleme için bootstrap framework u özellikleri çokça kullanılmaktadır.</p>
+  <a href="https://www.w3schools.com/bootstrap5/bootstrap_tables.php" target="_blank">Bootstrap 5 Tablo class incelemek için tıklayınız...</a>
+</body>
+</html>
